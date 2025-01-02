@@ -1,0 +1,245 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 10px 0;
+    color: white;
+}
+
+#contact-details .nono {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+#contact-details .nono a {
+    text-decoration: none;
+    color: white;
+}
+
+#social_icons {
+    display: flex;
+    gap: 10px;
+}
+
+#social_icons a {
+    text-decoration: none;
+    color: white;
+}
+
+/* #c1 {
+    display: inline;
+    padding: 2em;
+} */
+
+#background_girl {
+    background-image: url(/Assets/img-1-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#nav_menus a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 2em;
+}
+
+div .home-elements {
+    color: white;
+}
+
+div #home-para-element {
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+div #home-heading-element {
+    font-size: 4rem;
+    font-weight: 800;
+    padding-bottom: 4rem;
+}
+
+div #first_three_grids {
+    text-align: center;
+}
+
+div .grids1 {
+    background-color: white;
+    padding: 2rem;
+}
+
+div .grids1 p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+div .custom-text::first-letter{
+    font-size: 2rem;
+    line-height: 1;
+}
+
+#img_3 {
+    width: 50%;
+}
+
+.background-image {
+    position: relative;
+    height: auto;
+    background-image: url(/Assets/img-6-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.background-image div {
+    position: relative;
+    z-index: 2;
+}
+
+#hjjj {
+    color: black;
+    font-weight: 800;
+}
+
+#ijjj .col h5{
+    font-weight: bold;
+}
+
+#ijjj .col p {
+    padding-bottom: 2rem;
+}
+
+.background-image-1 {
+    position: relative;
+    height: auto;
+    background-image: url(/Assets/img-7-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.background-image-1 div {
+    position: relative;
+    z-index: 2;
+}
+
+.background-image-1 #jjj {
+    /* border: 2px solid black; */
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1em;
+    padding-top: 0.5em;
+    background-color: rgb(13, 202, 240);
+
+}
+
+.background-image-1 #kkk {
+    font-size: 1.5em;
+}
+
+.background-image-1 #lll {
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+#logo_1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#logo_1_1 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#nnn a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+#nnn p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#logo_1_1 {
+    color: rgb(0, 0, 0);
+}
+
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+}
+
+#aaa {
+    padding-top: 0;
+}
+
+#absolute {
+    width: 60%;
+    height: auto;
+}
